@@ -1,0 +1,88 @@
+
+
+/* tata letak */
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#fff;
+}
+h1{
+    color:#000;
+    margin-top:20px;
+}
+.container{
+    width:600px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.place {
+    height:300px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 30px;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.allButton {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.flex {
+    width:130px;
+    height:120px;
+    background-color: salmon;
+    border-radius: 50%;
+    line-height: 120px;
+    margin:5px;
+}
+
+.zero {
+    width:275px;
+    border-radius: 100px;
+}
+
+/* pemberian warna */
+.add {
+    background-color: #a5a5a5;
+    color:#000;
+    transition:.3s;
+}
+
+.num {
+    background-color: #333;
+    color:#fff;
+    transition: .3s;
+}
+
+.opr {
+    background-color: #ff9f0c;
+    color:#fff;
+    transition:.8s;
+}
+
+
+/* animasi */
+
+.animasiNomor {
+    background-color: #878787;
+}
+
+.animasiAdd {
+    background-color: #fff;
+}
+
+.animasiOperasi {
+    background-color: #fff;
+    color:#ff9f0c;
+}
